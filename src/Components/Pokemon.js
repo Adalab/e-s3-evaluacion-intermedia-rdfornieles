@@ -9,16 +9,17 @@ class Pokemon extends Component {
                 <ul>
                     <li>{this.props.types}</li>
                 </ul>
-            
+                <img src = {this.props.photo} alt="Pokemon Imagen" />
             </div>
         )
     }
 }
 
-
-
-
-
+Pokemon.propTypes = {
+    name: PropTypes.string.isRequired,
+    types: PropTypes.array.isRequired,
+    photo: PropTypes.string.isRequired,
+}
 
 
 export default Pokemon;
