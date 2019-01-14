@@ -2,7 +2,7 @@
   "name": "e-s3-evaluacion-intermedia-rdfornieles",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Adalab/e-s3-evaluacion-intermedia-rdfornieles",
+  "homepage": "http://github.com/Adalab/e-s3-evaluacion-intermedia-rdfornieles",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
